@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@font-face {
+        font-family: 'idroid';
+        src: url('../d010/fontes/idroid.otf') format(opentype);
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: #83e1ad;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to top, #063d1e, #3ddc84);
+    padding: 5px 15px;
+}
+
+main {
+    background-color: white;
+    min-width: 400px;
+    max-width: 800px;
+    padding: 1px 10px 0px 10px;
+    margin: 0px 80px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#principal {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
+
+#textoprincipal {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.menu {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+.titulos {
+    color: #035727;
+    font-family: 'idroid';
+}
+
+h2.titulos {
+    background-image: linear-gradient(to right, #2fa8653d, rgba(255, 255, 255, 0.514));
+}
+
+.textos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+strong.destaque {
+    color: #047234;
+}
+
+strong.destaque > a {
+    color: #047234;
+    text-decoration: none;
+}
+
+strong > a:hover {
+    text-decoration: underline;
+}
+
+.imagens {
+    margin: auto;
+}
+
+aside {
+    background-color: #c5ebd6;
+    padding: 1px 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+aside > h1 {
+    color: white;
+    background-color: #2fa866;
+    padding: 10px;
+    border: 0px;
+    margin: 0px;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;text-align: center;
+    color: white;
+    background-color: #063d1e;
+    padding: 3px 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
